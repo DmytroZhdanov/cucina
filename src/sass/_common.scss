@@ -1,1 +1,64 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+  --primary-font-family: "Montserrat", sans-serif;
+  --footer-font-family: "Inter", sans-serif;
+  --privacy-font-family: "Roboto", sans-serif;
+  --primary-text-color: #f3f3f3;
+  --background-hero: linear-gradient(
+    228.52deg,
+    rgba(111, 102, 102, 0.9) 4.71%,
+    rgba(16, 15, 15, 0.9) 39.77%,
+    rgba(16, 15, 15, 0.9) 44.21%
+  );
+  --background-dark: #100f0f;
+  --privacy-text-color: #979797;
+  --privacy-link-color: #ffffff;
+  --primary-brand-color: rgba(188, 26, 26, 0.5);
+}
+
+/* =============== COMPONENTS =============== */
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background: var(--background-dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+/* сетка между 30, колонка 65, падинги боковые 85 */
+.container {
+  width: 1280px;
+  padding: 0 85px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: inherit;
+}
