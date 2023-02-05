@@ -1,1 +1,19 @@
 // Gallery Section
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper {
+  width: 80%;
+  height: fit-content;
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
+.gallery-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,1 +1,80 @@
 // Hero Section right
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 0;
+}
+
+.hero {
+  background: var(--background-hero);
+}
+
+.hero-section-right {
+  display: flex;
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.content-item {
+  text-transform: uppercase;
+  line-height: 1.25;
+  display: block;
+}
+
+.content-item1 {
+  margin-bottom: 143px;
+}
+
+.wrapper-content-item2 {
+  padding-right: 31px;
+}
+
+.content-item2 {
+  margin-bottom: 181px;
+}
+
+.wrapper-content-item3 {
+  padding-right: 64px;
+}
+
+.content-item3 {
+  margin-bottom: 164px;
+}
+
+.wrapper-content-item4 {
+  padding-right: 41px;
+}
+
+.ketchup {
+  margin-left: -172px;
+  margin-top: -2px;
+  
+}
+
+.social-list-links {
+  margin: auto 0 auto 47px;
+}
+
+.social-link {
+  color: var(--primary-text-color);
+}
+
+.social-link:is(:hover, :focus) {
+  color: var(--primary-brand-color);
+}
+
+.social-link:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.soc-icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-left: auto;
+  margin-right: auto;
+}

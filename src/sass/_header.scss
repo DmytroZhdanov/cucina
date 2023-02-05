@@ -1,1 +1,89 @@
 // Header
+.header {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+}
+
+.navigator {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  fill: var(--primary-text-color);
+  margin-right: 16px;
+}
+
+.navigator .logo {
+  margin-right: 228px;
+}
+
+.logo-img {
+  width: 32px;
+  margin-right: 16px;
+}
+
+.navigator .list {
+  display: flex;
+  align-items: center;
+}
+.navigator .link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.navigator .item:not(:last-child) {
+  margin-right: 52px;
+}
+
+.btn-contact {
+  cursor: pointer;
+  margin-left: auto;
+
+  min-width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 34px;
+  padding-left: 34px;
+
+  border: 1px solid var(--primary-text-color);
+  border-radius: 16px;
+
+  background: inherit;
+  color: inherit;
+  font-family: inherit;
+
+  font-weight: 800;
+}
+
+.header-block .item:is(:hover, :focus) {
+  color: var(--primary-brand-color);
+}
+
+.btn-contact:is(:hover, :focus) {
+  background-color: #bc1a1a;
+}

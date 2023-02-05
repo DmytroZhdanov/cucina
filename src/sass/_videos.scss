@@ -1,1 +1,42 @@
 // Videos Section
+.section-video {
+  padding-bottom: 100px;
+}
+
+.list-video {
+  width: 984px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-video {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.video-label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.video-link {
+  padding-bottom: 16px;
+  padding-top: 94px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}

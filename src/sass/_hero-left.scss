@@ -1,1 +1,54 @@
 // Hero Section left
+.hero {
+  padding-top: 80px;
+}
+
+.hero-section-left {
+  width: 447px;
+}
+
+.hero-title-first {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+.hero-title-second {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.hero-text {
+  font-family: inherit, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+}
+.motto {
+  font-weight: 800;
+  color: #bc1a1ab5;
+}
+.btn {
+  font-family: inherit, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.23;
+  color: var(--primary-text-color);
+  background-color: #bc1a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 116px;
+  gap: 10px;
+  border-radius: 16px;
+  border: none;
+}
+.number {
+  font-family: inherit, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
