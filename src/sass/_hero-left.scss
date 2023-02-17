@@ -13,12 +13,11 @@ p { font-family: inherit;
     line-height:1.25;
     color: var(--text-color);
 }
-.container{
-    width: 447px;
-    padding: 0px;
-    margin-right: 160px;;
+.container-hero{
+  margin-right: 160px;
 }
 .title{
+    width: 400px;
     font-weight: 500;
     font-size: 64px;
     line-height: 1.2;
