@@ -148,12 +148,80 @@ p { font-family: inherit;
 }
 .modal {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -50%);
     width: 504px;
     min-height: 1250px;
     padding: 60px;
     border-radius: 8px;
     background-color: #100F0F;
   }
+.modal-title{
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.modal-form {
+}
+.lable-name {
+  margin-bottom: 12px;
+}
+.modal-input {
+}
+.modal-name {
+  background-color: rgba(46, 47, 66, 0.4);
+    width: 100%;
+    border: 1px solid #F3F3F3;
+    border-radius: 16px;
+}
+.delivery {
+  margin-top: 40px;
+}
+.input-name{
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--primary-text-color);
+  line-height: calc(29/24);
+}
+.payment {
+    display: flex;
+    margin: 40px 0px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.paym{
+  margin-right: 12px;
+}
+.modal-check {
+  margin-top: 20px;
+}
+.checkbox {
+  position: relative;
+  margin-right: 12px;
+}
+.checkbox-txt {
+  position: absolute;
+}
+.txt {
+}
+.btn-form {
+  width: 384px;
+  font-weight: 700;
+  font-size: 20px;
+  height: 66px;
+  color: var(--primary-text-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(188, 26, 26, 0.2);
+  border-radius: 16px;
+  padding: 16px 32px;
+  gap: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+  border: none;
+}
