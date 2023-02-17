@@ -2,13 +2,68 @@
 <main>
     <section class="section">
 <div class="container">
-        <h1 class="title line">CUCINA DI CATHERINA</h1>
+        <h1 class="title line ">CUCINA DI CATHERINA</h1>
             <h2 class="second-text">We know,<br>
                 you will <span class="motto">love</span> our product</h2>
-    <button type="button" class="btn">Buy now</button>
+    <button type="button" class="btn is-hidden" data-modal-open>Buy now</button>
     <ul class="list">
     <li class="line-gap"><h2 class="number"> 14 </h2><p class="list-text first"> different tastes</p></li>
     <li class="list-second"><h2 class="number">31 </h2><p class="list-text fix">factories around the world</p></li>
     </ul>
 </div>
     </section>
+    <div class="backdrop  is-hidden" data-modal>
+        <div class="modal">
+            <button  data-modal-close type="button" class="modal-close">
+                <p class="modal-title">Your ordering</p>
+            <form class="modal-form">
+                <label for="Surname"><span class="lable-name"> Surname</span></label>
+                <div class="modal-input">
+                    <input type="text" class="modal-name" placeholder="" name="custom-name" id="Surname"  required>
+                </div>        
+                <label for="Name"><span class="lable-name"> Name</span></label>
+                <div class="modal-input">
+                    <input type="text" class="modal-name" placeholder="" name="custom-name" id="Name"  required>
+                </div>
+                <label for="Phone"><span class="lable-name">Telephone</span></label>
+                <div class="modal-input">
+                    <input type="tel" class="modal-name" placeholder="" name="custom-phone" id="Phone" required>
+                </div>
+                <label for="city"><span class="lable-name">City</span></label>
+                <input name="city" list="cities" />
+                <datalist id="cities">
+                <option value="Kyiv" >
+                <option value="Dnipro">
+                <option value="Kharkiv" >
+                <option value="Lviv" >
+                <option value="Odessa" >
+                </datalist>
+                <div class="delivery">
+                    <p>Delivery</p>
+    <input type="radio" name="del"  id="del" checked="checked" />
+    <label for="del">Delivery to department of Nova Poshta</label>
+    <input type="radio" name="deliv"  id="deliv" />
+    <label for="sizeDimensions">Delivery by courier of Nova Poshta</label>
+                </div>
+                <label for="department"><span class="lable-name">Select department</span></label>
+                <input name="departments" list="postoffice" />
+                <datalist id="postoffice">
+                <option value="Nova Poshta 58" >
+                <option value="Nova Poshta 32">
+                <option value="Nova Poshta 24" >
+                <option value="Nova Poshta 15" >
+                <option value="Nova Poshta 25" >
+                </datalist>
+                <div class="payment">
+                    <p>Payment method</p>
+                    <label><input type="radio" name="signup" value="card" checked><span>Credit card (Visa, Mastercard, ApplePay)</span></label>
+                    <label><input type="radio" name="signup" value="cash" checked><span>Cash on delivery</span></label> 
+                </div>
+                <a href="">Add a comment to the order</a>
+                <div class="modal-check "><input type="checkbox" class="checkbox visually-hiden" id="confirm" name="confirm" value="true" required>
+                <label for="txt" class="checkbox-txt"><p class="txt">Do not call to confirm</p></lable></div>
+                    <button type="submit" class="btn-form">Buy now</button>
+            </form>
+        </div>
+    </div>
+    <script src="./modal.js/modal.js"></script>
