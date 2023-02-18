@@ -15,8 +15,10 @@
     <div class="backdrop  is-hidden" data-modal>
         <div class="modal">
             <button  data-modal-close type="button" class="modal-close">
+                </button>
                 <p class="modal-title">Your ordering</p>
             <form class="modal-form">
+                <P class="input-name">Contacts</P>
                 <label for="Surname"><span class="lable-name"> Surname</span></label>
                 <div class="modal-input">
                     <input type="text" class="modal-name" placeholder="" name="custom-name" id="Surname"  required>
@@ -39,7 +41,7 @@
                 <option value="Odessa" >
                 </datalist>
                 <div class="delivery">
-                    <p>Delivery</p>
+                    <p class="input-name">Delivery</p>
     <input type="radio" name="del"  id="del" checked="checked" />
     <label for="del">Delivery to department of Nova Poshta</label>
     <input type="radio" name="deliv"  id="deliv" />
@@ -55,9 +57,9 @@
                 <option value="Nova Poshta 25" >
                 </datalist>
                 <div class="payment">
-                    <p>Payment method</p>
-                    <label><input type="radio" name="signup" value="card" checked><span>Credit card (Visa, Mastercard, ApplePay)</span></label>
-                    <label><input type="radio" name="signup" value="cash" checked><span>Cash on delivery</span></label> 
+                    <p class="input-name">Payment method </p>
+                    <label><input type="radio" class="paym" name="signup" value="card" checked><span>Credit card (Visa, Mastercard, ApplePay)</span></label>
+                    <label><input type="radio" class="paym" name="signup" value="cash" checked><span>Cash on delivery</span></label> 
                 </div>
                 <a href="">Add a comment to the order</a>
                 <div class="modal-check "><input type="checkbox" class="checkbox visually-hiden" id="confirm" name="confirm" value="true" required>
